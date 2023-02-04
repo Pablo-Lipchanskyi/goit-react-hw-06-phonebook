@@ -1,9 +1,0 @@
-.sectionStyle{
-    display: block;
-        width: 100%;
-        margin-left: auto;
-        color: black;
-}
-.sectionStyle>h2 {
-    text-align: center;
-}
