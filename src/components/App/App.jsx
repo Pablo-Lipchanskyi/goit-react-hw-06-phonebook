@@ -1,4 +1,4 @@
-import ContactForm from 'components/ContactForm.jsx/ContactForm';
+import ContactForm from 'components/ContactForm/ContactForm';
 import { Section } from 'components/Section/Section';
 import { AppStyled } from './App.styled';
 import { ContactsList } from 'components/ContactsList/ContactsList';

@@ -6,7 +6,7 @@ import { Button } from 'components/Button/Button';
 import {
   ContactFormStyled,
   LabelInputStyled,
-} from 'components/ContactForm.jsx/ContactForm.styled';
+} from 'components/ContactForm/ContactForm.styled';
 
 export default function ContactForm() {
   const [name, setName] = useState('');
