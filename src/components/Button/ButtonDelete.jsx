@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import css from 'components/Button/button.module.css'
+import { StyledDeleteButton } from './Button.styled';
 
 export const ButtonDelete = ({ type = 'button', children, actionHandler }) => {
   return (
-    <button type={type} onClick={actionHandler} className={css.buttonDelete}>
+    <StyledDeleteButton type={type} onClick={actionHandler}>
       {children}
-    </button>
+    </StyledDeleteButton>
   );
 };
 

@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
-import css from 'components/Button/button.module.css'
+
+import { StyledButton } from './Button.styled';
 
 export const Button = ({ type = 'submit', children, actionHandler }) => {
   return (
-    <button type={type} onClick={actionHandler} className={css.button}>
+    <StyledButton type={type} onClick={actionHandler}>
       {children}
-    </button>
+    </StyledButton>
   );
 };
 
